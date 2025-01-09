@@ -1,0 +1,61 @@
+.profile {
+  display: flex;
+}
+.content {
+  flex: 2;
+  text-align: center;
+  align-content: center;
+}
+.profilepic {
+  flex: 1;
+}
+.innercontent {
+  padding: 20px;
+}
+.profileicon {
+  height: 50px;
+  padding: 5px;
+  width: 50px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profileButton {
+  background-color: white;
+  border: none;
+}
+.profileicon:hover {
+  height: 70px;
+  padding: 5px;
+  width: 70px;
+}
+
+h2 {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 5s steps(15) infinite alternate,
+    blink 8ms steps(15) 3 normal;
+  border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}

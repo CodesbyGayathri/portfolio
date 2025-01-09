@@ -1,0 +1,19 @@
+.about {
+  padding: 30px;
+  border: 1px solid;
+  margin: 30px;
+  box-shadow: 5px 10px;
+}
+.about-card {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  font-family: serif;
+  font-size: medium;
+}
